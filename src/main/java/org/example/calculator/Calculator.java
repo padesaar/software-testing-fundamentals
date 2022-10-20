@@ -12,6 +12,10 @@ public class Calculator {
         return result;
     }
 
+    public float addNumbers(int a, int b) {
+        return a + b;
+    }
+
     public float divideArray(float[] inputArray) {
         float result = inputArray[0];
 

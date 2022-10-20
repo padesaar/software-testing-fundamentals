@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba0fb8a-eb91-4c38-9215-5af4db455481" name="Changes" comment="Made software tests for Calculator: add, subtract, multiply, divide" />
+    <list default="true" id="4ba0fb8a-eb91-4c38-9215-5af4db455481" name="Changes" comment="Made software tests for Calculator: add, subtract, multiply, divide">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AssertJExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/test/CalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,24 +56,71 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SuctractCalculatorTest.shouldReturnToResultAfterSubtractArrayIsCalled">
-    <configuration name="AddCalculatorTest.shouldReturnToSumAfterAddArrayIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssertJExamples.testFloatList">
+    <configuration name="AssertJExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-testing-fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.AddCalculatorTest" />
-      <option name="METHOD_NAME" value="shouldReturnToSumAfterAddArrayIsCalled" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AssertJExamples" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertJExamples.testFloatList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-testing-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AssertJExamples" />
+      <option name="METHOD_NAME" value="testFloatList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.shouldReturnToResultWhenMultiplyArrayIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertJExamples.testIntegerList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-testing-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AssertJExamples" />
+      <option name="METHOD_NAME" value="testIntegerList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertJExamples.testString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-testing-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AssertJExamples" />
+      <option name="METHOD_NAME" value="testString2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-testing-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -77,67 +130,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.test" />
       <option name="MAIN_CLASS_NAME" value="org.example.test.CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldReturnToResultWhenMultiplyArrayIsCalled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivideTestCalculator.shouldReturnToResultAfterDivideArrayIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="software-testing-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.test" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test.DivideTestCalculator" />
-      <option name="METHOD_NAME" value="shouldReturnToResultAfterDivideArrayIsCalled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuctractCalculatorTest.shouldReturnToResultAfterSubtractArrayIsCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="software-testing-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.test" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test.SuctractCalculatorTest" />
-      <option name="METHOD_NAME" value="shouldReturnToResultAfterSubtractArrayIsCalled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExample.shouldReturnCorrectAddedNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="software-testing-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.test" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test.TestExample" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectAddedNumbers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SuctractCalculatorTest.shouldReturnToResultAfterSubtractArrayIsCalled" />
-        <item itemvalue="JUnit.AddCalculatorTest.shouldReturnToSumAfterAddArrayIsCalled" />
-        <item itemvalue="JUnit.DivideTestCalculator.shouldReturnToResultAfterDivideArrayIsCalled" />
-        <item itemvalue="JUnit.CalculatorTest.shouldReturnToResultWhenMultiplyArrayIsCalled" />
-        <item itemvalue="JUnit.TestExample.shouldReturnCorrectAddedNumbers" />
+        <item itemvalue="JUnit.AssertJExamples.testFloatList" />
+        <item itemvalue="JUnit.AssertJExamples.testString2" />
+        <item itemvalue="JUnit.AssertJExamples.testIntegerList" />
+        <item itemvalue="JUnit.AssertJExamples" />
+        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666203780295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Made software tests for Calculator: add, subtract, multiply, divide">
+      <created>1666204030216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666204030216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
