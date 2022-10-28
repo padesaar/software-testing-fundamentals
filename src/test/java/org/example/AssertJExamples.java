@@ -32,11 +32,14 @@ public class AssertJExamples {
     public void testString2() {
         final String testString = "Stranger things is awesome Netflix drama";
 
-        Assertions.assertThat(testString).endsWith("drama")
-                .doesNotStartWith("Estonia")
-                .isNotBlank()
-                .isMixedCase()
-                .contains(" "); //contains space
+       // Assertions.assertThat(testString).endsWith("drama")
+          //      .doesNotStartWith("Estonia")
+             //   .isNotBlank()
+            //    .isMixedCase()
+             //   .contains(" ");
+
+        Assertions.assertThat("\t".length() > 0).isTrue();
+    //contains space
     }
     @Test
     public void testFloatList() {
@@ -48,4 +51,6 @@ public class AssertJExamples {
                 .containsExactlyInAnyOrder(2.3F, 5.7F, 6.8F, 2.45F, 5.90F, 90.34F, 100.23F)
                 .startsWith(2.3F);
     }
+
+
 }

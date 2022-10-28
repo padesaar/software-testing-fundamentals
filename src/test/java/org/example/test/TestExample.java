@@ -15,5 +15,6 @@ public class TestExample {
         //then part
 
        Assertions.assertEquals(63, addResult);
+
     }
 }
